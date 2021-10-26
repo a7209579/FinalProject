@@ -104,7 +104,7 @@ Gabor CNN模型訓練後，Gabor層自己學習訓練出的filters如下圖，�
 經過上圖的濾波器做卷積後特徵圖結果如下圖，產生32張40x40的特徵圖。  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/feature_maps.png)
 ## 6. 參考文獻
-1.[GaborNet: Gabor filters with learnable parameters in deep convolutional neural networks](https://arxiv.org/pdf/1904.13204.pdf)  
-2.[GaborNet作者專案](https://github.com/iKintosh/GaborNet)  
-3.[Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)  
+1. [GaborNet: Gabor filters with learnable parameters in deep convolutional neural networks](https://arxiv.org/pdf/1904.13204.pdf)  
+2. [GaborNet作者專案](https://github.com/iKintosh/GaborNet)  
+3. [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)  
 
