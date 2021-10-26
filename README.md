@@ -34,18 +34,18 @@ pip install seaborn==0.11.2
 
 ## 實驗結果
 ```
-[1] train acc: 0.0986 train loss: 0.2836
-[2] train acc: 0.1455 train loss: 0.2831
-[3] train acc: 0.1784 train loss: 0.2825
-[4] train acc: 0.1972 train loss: 0.2804
-[5] train acc: 0.2911 train loss: 0.2739
-[6] train acc: 0.3146 train loss: 0.2685
-[7] train_acc: 0.3521 train_loss: 0.2622
-[8] train acc: 0.4413 train_loss: 0.2566
-[9] train_acc: 0.4695 train_loss: 0.2484
+[1]  train acc: 0.0986 train loss: 0.2836
+[2]  train acc: 0.1455 train loss: 0.2831
+[3]  train acc: 0.1784 train loss: 0.2825
+[4]  train acc: 0.1972 train loss: 0.2804
+[5]  train acc: 0.2911 train loss: 0.2739
+[6]  train acc: 0.3146 train loss: 0.2685
+[7]  train_acc: 0.3521 train_loss: 0.2622
+[8]  train acc: 0.4413 train_loss: 0.2566
+[9]  train_acc: 0.4695 train_loss: 0.2484
 [10] train_acc: 0.5164 train_loss: 0.2428
 [11] train acc: 0.5164 train loss: 0.2399
-[12] train _acc: 0.6056 train loss: 0.2299
+[12] train_acc: 0.6056 train loss: 0.2299
 [13] train_acc: 0.6948 train_loss: 0.2237
 [14] train_acc: 0.7324 train_loss: 0.2149
 [15] train acc: 0.7136 train loss: 0.2147
