@@ -57,7 +57,7 @@ Estimated Total Size (MB): 30.84
 ## 實驗結果
 實驗比較這篇論文的方法：
 * [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)  
-以下為我們實驗的結果
+* 以下為我們實驗的結果
 ```
 [1]  train acc: 0.0986 train loss: 0.2836
 [2]  train acc: 0.1455 train loss: 0.2831
@@ -91,7 +91,7 @@ Estimated Total Size (MB): 30.84
 [30] train_acc: 0.9718 train_loss: 0.1757
 Finished Training
 ```
-###資料視覺化
+### 資料視覺化
 我們使用Gabor CNN模型，JAFFE資料集訓練準確率從0.9116提升到0.9718，準確率提升了6%，得以證明，使用一層可學習Gabor filter函式參數特徵的Gabor層，比進行兩次手動調整參數進行特徵提取的效果還好。  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
 
