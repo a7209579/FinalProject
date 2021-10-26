@@ -88,7 +88,9 @@ pip install seaborn==0.11.2
 [30] train_acc: 0.9718 train_loss: 0.1757
 Finished Training
 ```
+#### 資料視覺化
 * ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
+#### 混淆矩陣
 * ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
 ## 參考文獻
 test
