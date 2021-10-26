@@ -20,16 +20,16 @@
 * python 3.8.9
 #### 使用套件
 ```
-pip install torch 1.9.0+cu111 torchvision1.9.0+cu111
+pip install torch==1.9.0+cu111 torchvision==1.9.0+cu111
 ```
 ```
-pip install matplotlib 3.4.3
+pip install matplotlib==3.4.3
 ```
 ```
-pip install seaborn 0.11.2
+pip install seaborn==0.11.2
 ```
 ```
-pip install scikit-image 0.18.3
+pip install scikit-image==0.18.3
 ```
 
 ## 實驗結果
