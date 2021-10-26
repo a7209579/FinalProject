@@ -14,13 +14,14 @@
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/structure.png)
 ## 開發環境
 #### 硬體
-* CPU:Intel i7-11700KF
-* GPU:NVIDIA GeForce RTX3070
+* CPU: Intel i7-11700KF
+* GPU: NVIDIA GeForce RTX3070
 #### 開發軟體
 python 3.8.9
 #### 使用套件
 torch 1.9.0+cu111
 ## 實驗結果
-test
+![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
+![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
 ## 參考文獻
 test
