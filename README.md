@@ -105,6 +105,6 @@ Gabor CNN模型訓練後，Gabor層自己學習訓練出的filters如下圖，�
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/feature_maps.png)
 ## 6. 參考文獻
 * [GaborNet: Gabor filters with learnable parameters in deep convolutional neural networks](https://arxiv.org/pdf/1904.13204.pdf)  
-* [GaborNet作者專案](https://github.com/iKintosh/GaborNet)  
+* [GaborNet作者Github專案](https://github.com/iKintosh/GaborNet)  
 * [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)  
 
