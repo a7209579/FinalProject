@@ -4,11 +4,11 @@
 ## 資料集
 * [The Japanese Female Facial Expression (JAFFE) Dataset](https://zenodo.org/record/3451524#.YXe3sC9Cb0o)
 
-| 表頭1 | 表頭2 | 表頭3 |
-|-------|:-----:|------:|
-| 左1   |  中1  |   右1 |
-| 左2   |  中2  |   右2 |
-| 左3   |  中3  |   右3 |
+| category | AN | DI | FE | HA | SA | SU | NE | Total
+|-------|:-----:|------:|------:|------:|------:|------:|------:|------:|
+| images   |  30  |   29 |  32  |   31 |31  |   30 |30  |   213 |
+
+
 ## 模型架構
 使用一層Gabor層和一層卷積層的CNN模型做為JAFFE資料集辨識的類神經網路架構。運用一層Gabor層和一層卷積層，並且每層做2x2的MaxPooling，ReLU作為Gabor層和卷積層的啟動函數，Softmax則作為最後全連接層的啟動函數。Gabor層中的Gabor kernel做為CNN的kernel，kernel大小設為9x9。
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/structure.png)
