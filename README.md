@@ -90,7 +90,7 @@ Finished Training
 ```
 #### 訓練結果視覺化
 實驗比較這篇論文的方法
-* [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)
+* [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)`  `
 我們使用Gabor CNN模型，JAFFE資料集訓練準確率從0.9116提升到0.9718，準確率提升了6%，得以證明，使用一層可學習Gabor filter函式參數特徵的Gabor層，比進行兩次手動調整參數進行特徵提取的效果還好。
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
 
