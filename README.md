@@ -12,7 +12,7 @@
 ## 模型架構
 使用一層Gabor層和一層卷積層的CNN模型做為JAFFE資料集辨識的類神經網路架構。運用一層Gabor層和一層卷積層，並且每層做2x2的MaxPooling，ReLU作為Gabor層和卷積層的啟動函數，Softmax則作為最後全連接層的啟動函數。Gabor層中的Gabor kernel做為CNN的kernel，kernel大小設為9x9。
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/structure.png)
-#### Summary
+### Summary
 ```
 ==========================================================================================
 Layer (type:depth-idx)                   Output Shape              Param #
@@ -35,12 +35,12 @@ Estimated Total Size (MB): 30.84
 ==========================================================================================
 ```
 ## 開發環境
-#### 硬體
+### 硬體
 * CPU: Intel i7-11700KF
 * GPU: NVIDIA GeForce RTX3070
-#### 開發軟體
+### 開發軟體
 * python 3.8.9
-#### 使用套件
+### 使用套件
 ```
 pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
@@ -88,7 +88,7 @@ pip install seaborn==0.11.2
 [30] train_acc: 0.9718 train_loss: 0.1757
 Finished Training
 ```
-#### 訓練結果視覺化
+### 訓練結果視覺化
 實驗比較這篇論文的方法：
 * [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)  我們使用Gabor CNN模型，JAFFE資料集訓練準確率從0.9116提升到0.9718，準確率提升了6%，得以證明，使用一層可學習Gabor filter函式參數特徵的Gabor層，比進行兩次手動調整參數進行特徵提取的效果還好。
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
