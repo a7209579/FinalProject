@@ -98,7 +98,7 @@ Finished Training
 Gabor CNN模型在JAFFE資料集辨識的混淆矩陣圖，以下七種標籤AN、DI、FE、HA、SA、SU、NE分別為生氣、厭惡、恐懼、開心、悲傷、驚訝、中性。其中悲傷在所有分類中表現不如其他表情好，只有90%的準確率，其他標籤準確率都在97%的水準之上。
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
 ### 5-3. 濾波器視覺化
-Gabor CNN模型訓練後，Gabor層自己學習訓練出的filters如下圖，此Gabor filter為32x9x9的大小，具有各種不同方向，頻率的Gabor filters。
+Gabor CNN模型訓練後，Gabor層自己學習訓練出的filters如下圖，此Gabor filter為32x9x9的大小，具有各種不同方向，頻率的Gabor filters。  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/filter.png)
 ### 5-4. 特徵圖視覺化
 經過上圖的濾波器做卷積後特徵圖結果如下圖，為32x40x40的特徵圖
