@@ -101,7 +101,10 @@ Gabor CNN模型在JAFFE資料集辨識的混淆矩陣圖，以下七種標籤AN�
 Gabor CNN模型訓練後，Gabor層自己學習訓練出的filters如下圖，此Gabor filter為32x9x9的大小，具有各種不同方向，頻率的Gabor filters。  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/filter.png)
 ### 5-4. 特徵圖視覺化
-經過上圖的濾波器做卷積後特徵圖結果如下圖，為32x40x40的特徵圖  
+經過上圖的濾波器做卷積後特徵圖結果如下圖，產生32張40x40的特徵圖。  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/feature_maps.png)
-## 參考文獻
-test
+## 6. 參考文獻
+1.[GaborNet: Gabor filters with learnable parameters in deep convolutional neural networks](https://arxiv.org/pdf/1904.13204.pdf)
+2.[GaborNet作者專案](https://github.com/iKintosh/GaborNet)
+3.[Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)
+
