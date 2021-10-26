@@ -88,10 +88,10 @@ pip install seaborn==0.11.2
 [30] train_acc: 0.9718 train_loss: 0.1757
 Finished Training
 ```
-### 訓練結果視覺化
 實驗比較這篇論文的方法：
 * [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)  
-#### 我們使用Gabor CNN模型，JAFFE資料集訓練準確率從0.9116提升到0.9718，準確率提升了6%，得以證明，使用一層可學習Gabor filter函式參數特徵的Gabor層，比進行兩次手動調整參數進行特徵提取的效果還好。  
+### 訓練結果視覺化
+我們使用Gabor CNN模型，JAFFE資料集訓練準確率從0.9116提升到0.9718，準確率提升了6%，得以證明，使用一層可學習Gabor filter函式參數特徵的Gabor層，比進行兩次手動調整參數進行特徵提取的效果還好。  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
 
 Gabor CNN模型在JAFFE資料集辨識的混淆矩陣圖，以下七種標籤AN、DI、FE、HA、SA、SU、NE分別為生氣、厭惡、恐懼、開心、悲傷、驚訝、中性。其中悲傷在所有分類中表現不如其他表情好，只有90%的準確率，其他標籤準確率都在97%的水準之上。
