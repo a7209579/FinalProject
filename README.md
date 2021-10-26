@@ -20,11 +20,11 @@
 * python 3.8.9
 #### 使用套件
 ```
-* torch 1.9.0+cu111
-* torchvision1.9.0+cu111
-* matplotlib 3.4.3
-* seaborn 0.11.2
-* scikit-image 0.18.3
+pip install torch 1.9.0+cu111
+pip installtorchvision1.9.0+cu111
+pip installmatplotlib 3.4.3
+pip installseaborn 0.11.2
+pip installscikit-image 0.18.3
 ```
 ## 實驗結果
 * ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
