@@ -17,11 +17,15 @@
 * CPU: Intel i7-11700KF
 * GPU: NVIDIA GeForce RTX3070
 #### 開發軟體
-python 3.8.9
+* python 3.8.9
 #### 使用套件
-torch 1.9.0+cu111
+* torch 1.9.0+cu111
+* torchvision1.9.0+cu111
+* matplotlib 3.4.3
+* seaborn 0.11.2
+* scikit-image 0.18.3
 ## 實驗結果
-![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
-![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
+* ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
+* ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
 ## 參考文獻
 test
