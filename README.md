@@ -4,7 +4,7 @@
 ## 資料集
 * [The Japanese Female Facial Expression (JAFFE) Dataset](https://zenodo.org/record/3451524#.YXe3sC9Cb0o)
 
-| category |  ANGRY | DIGUST | FEAR | HAPPY | SAD | SURPRISE | NEUTRAL | Total |
+| category |  AN | DI | FE | HA | SA | SU | NE | Total |
 |----------|:---:|---:|---:|---:|---:|---:|---:|------:|
 |**images**|  30 | 29 | 32 | 31 | 31 | 30 | 30 |**213**|
 
