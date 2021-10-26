@@ -57,7 +57,7 @@ Estimated Total Size (MB): 30.84
 ## 實驗結果
 實驗比較這篇論文的方法：
 * [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)  
-* 以下為我們實驗的結果
+* 以下為本實驗的結果:
 ```
 [1]  train acc: 0.0986 train loss: 0.2836
 [2]  train acc: 0.1455 train loss: 0.2831
