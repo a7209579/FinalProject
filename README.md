@@ -23,16 +23,49 @@
 pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 ```
+pip install scikit-image==0.18.3
+```
+```
 pip install matplotlib==3.4.3
 ```
 ```
 pip install seaborn==0.11.2
 ```
-```
-pip install scikit-image==0.18.3
-```
 
 ## 實驗結果
+```
+[1] train acc: 0.0986 train loss: 0.2836
+[2] train acc: 0.1455 train loss: 0.2831
+[3] train acc: 0.1784 train loss: 0.2825
+[4] train acc: 0.1972 train loss: 0.2804
+[5] train acc: 0.2911 train loss: 0.2739
+[6] train acc: 0.3146 train loss: 0.2685
+[7] train_acc: 0.3521 train_loss: 0.2622
+[8] train acc: 0.4413 train_loss: 0.2566
+[9] train_acc: 0.4695 train_loss: 0.2484
+[10] train_acc: 0.5164 train_loss: 0.2428
+[11] train acc: 0.5164 train loss: 0.2399
+[12] train _acc: 0.6056 train loss: 0.2299
+[13] train_acc: 0.6948 train_loss: 0.2237
+[14] train_acc: 0.7324 train_loss: 0.2149
+[15] train acc: 0.7136 train loss: 0.2147
+[16] train_acc: 0.8169 train_loss: 0.2046
+[17] train_acc: 0.8357 train loss: 0.2012
+[18] train_acc: 0.8685 train_loss: 0.1957
+[19] train_acc: 0.8638 train loss: 0.1953
+[20] train_acc: 0.8826 train_loss: 0.1939
+[21] train_acc: 0.8779 train loss: 0.1911
+[22] train_acc: 0.9108 train_loss: 0.1869
+[23] train acc: 0.9014 train loss: 0.1887
+[24] train_acc: 0.9531 train_loss: 0.1825
+[25] train_acc: 0.9249 train_loss: 0.1828
+[26] train_acc: 0.9296 train_loss: 0.1840
+[27] train_acc: 0.9484 train_loss: 0.1818
+[28] train_acc: 0.9296 train_loss: 0.1802
+[29] train_acc: 0.9577 train_loss: 0.1780
+[30] train_acc: 0.9718 train_loss: 0.1757
+Finished Training
+```
 * ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
 * ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
 ## 參考文獻
