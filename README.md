@@ -12,7 +12,8 @@
 ## 模型架構
 使用一層Gabor層和一層卷積層的CNN模型做為JAFFE資料集辨識的類神經網路架構。運用一層Gabor層和一層卷積層，並且每層做2x2的MaxPooling，ReLU作為Gabor層和卷積層的啟動函數，Softmax則作為最後全連接層的啟動函數。Gabor層中的Gabor kernel做為CNN的kernel，kernel大小設為9x9。
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/structure.png)
-## Summary
+#### Summary
+```
 ==========================================================================================
 Layer (type:depth-idx)                   Output Shape              Param #
 ==========================================================================================
@@ -32,6 +33,7 @@ Forward/backward pass size (MB): 9.34
 Params size (MB): 21.35
 Estimated Total Size (MB): 30.84
 ==========================================================================================
+```
 ## 開發環境
 #### 硬體
 * CPU: Intel i7-11700KF
