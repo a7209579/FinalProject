@@ -88,9 +88,9 @@ pip install seaborn==0.11.2
 [30] train_acc: 0.9718 train_loss: 0.1757
 Finished Training
 ```
-#### 資料視覺化
-* ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
-#### 混淆矩陣
-* ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
+#### 訓練資料視覺化
+![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
+Gabor CNN模型在JAFFE資料集辨識的混淆矩陣圖，以下七種標籤AN、DI、FE、HA、SA、SU、NE分別為生氣、厭惡、恐懼、開心、悲傷、驚訝、中性。其中悲傷在所有分類中表現不如其他表情好，只有90%的準確率，其他標籤準確率都在97%的水準之上。
+![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
 ## 參考文獻
 test
