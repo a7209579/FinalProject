@@ -1,21 +1,21 @@
 # 基於GaborNet改善人臉表情辨識
-## 摘要
+## 1. 摘要
 本文中我們使用GaborNet卷積神經網路模型，改善傳統先使用Gabor Filter提取特徵再放入CNN模型辦識的方法。GaborNet具有可學習Gabor函式參數的Gabor層，利用反向傳播演算法更新每輪訓練的參数。GaborNet模型比對使用傳統方法的人臉表情辩識論文，實驗結果顯示，此方法步驟更少，只需一層Gabor層和一層卷積層就可以達到更好的辦識率。
 
-## 資料集
+## 2. 資料集
 * [The Japanese Female Facial Expression (JAFFE) Dataset](https://zenodo.org/record/3451524#.YXe3sC9Cb0o)
 
 | category |  AN | DI | FE | HA | SA | SU | NE | Total |
 |----------|:---:|---:|---:|---:|---:|---:|---:|------:|
 |**images**|  30 | 29 | 32 | 31 | 31 | 30 | 30 |**213**|
 
-## 開發環境
-### 硬體
+## 3. 開發環境
+### 3-1. 硬體
 * CPU: Intel i7-11700KF
 * GPU: NVIDIA GeForce RTX3070
-### 開發軟體
+### 3-2. 開發軟體
 * python 3.8.9
-### 使用套件
+### 3-3. 使用套件
 ```
 pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
@@ -29,10 +29,10 @@ pip install matplotlib==3.4.3
 pip install seaborn==0.11.2
 ```
 
-## 模型架構
+## 4. 模型架構
 使用一層Gabor層和一層卷積層的CNN模型做為JAFFE資料集辨識的類神經網路架構。運用一層Gabor層和一層卷積層，並且每層做2x2的MaxPooling，ReLU作為Gabor層和卷積層的啟動函數，Softmax則作為最後全連接層的啟動函數。Gabor層中的Gabor kernel做為CNN的kernel，kernel大小設為9x9。
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/structure.png)
-### Summary
+### 4-1. Summary
 ```
 ==========================================================================================
 Layer (type:depth-idx)                   Output Shape              Param #
@@ -54,7 +54,7 @@ Params size (MB): 21.35
 Estimated Total Size (MB): 30.84
 ==========================================================================================
 ```
-## 實驗結果
+## 5. 實驗結果
 實驗比較這篇論文的方法：
 * [Fast Facial emotion recognition Using Convolutional Neural Networks and Gabor Filters](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)  
 * 以下為本實驗的結果:
@@ -91,11 +91,15 @@ Estimated Total Size (MB): 30.84
 [30] train_acc: 0.9718 train_loss: 0.1757
 Finished Training
 ```
-### 資料視覺化
+### 5-1. 訓練結果視覺化
 對比[這篇論文](https://www.researchgate.net/publication/344190368_Fast_Facial_emotion_recognition_Using_Convolutional_Neural_Networks_and_Gabor_Filters/link/5f9a4a7992851c14bcf08802/download)的方法，我們使用Gabor CNN模型，JAFFE資料集訓練準確率從0.9116提升到0.9718，準確率提升了6%，得以證明，使用一層可學習Gabor filter函式參數特徵的Gabor層，比進行兩次手動調整參數進行特徵提取的效果還好。  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/acc.png)
-
+### 5-2. 混淆矩陣
 Gabor CNN模型在JAFFE資料集辨識的混淆矩陣圖，以下七種標籤AN、DI、FE、HA、SA、SU、NE分別為生氣、厭惡、恐懼、開心、悲傷、驚訝、中性。其中悲傷在所有分類中表現不如其他表情好，只有90%的準確率，其他標籤準確率都在97%的水準之上。
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/confusion_matrix.png)
+### 5-3. 濾波器視覺化
+![image](https://github.com/a7209579/FinalYearProject/blob/main/images/filter.png)
+### 5-4. 特徵圖視覺化
+![image](https://github.com/a7209579/FinalYearProject/blob/main/images/feature_maps.png)
 ## 參考文獻
 test
