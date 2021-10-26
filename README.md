@@ -101,7 +101,7 @@ Gabor CNN模型在JAFFE資料集辨識的混淆矩陣圖，以下七種標籤AN�
 Gabor CNN模型訓練後，Gabor層自己學習訓練出的filters如下圖，此Gabor filter為32x9x9的大小，具有各種不同方向，頻率的Gabor filters。  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/filter.png)
 ### 5-4. 特徵圖視覺化
-經過上圖的濾波器做卷積後特徵圖結果如下圖，為32x40x40的特徵圖
+經過上圖的濾波器做卷積後特徵圖結果如下圖，為32x40x40的特徵圖  
 ![image](https://github.com/a7209579/FinalYearProject/blob/main/images/feature_maps.png)
 ## 參考文獻
 test
