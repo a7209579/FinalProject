@@ -1,6 +1,7 @@
 # 使用GaborNet應用於人臉表情辨識
 ## 1. 摘要
-本文中我們使用GaborNet卷積神經網路模型，改善傳統先使用Gabor Filter提取特徵再放入CNN模型辦識的方法。GaborNet具有可學習Gabor函式參數的Gabor層，利用反向傳播演算法更新每輪訓練的參数。GaborNet模型比對使用傳統方法的人臉表情辩識論文，實驗結果顯示，此方法步驟更少，只需一層Gabor層和一層卷積層就可以達到更好的辦識率。
+本文中使用GaborNet卷積神經網路模型中的Gabor卷積層來設計我們的網路模型,應用於人臉表情辨識。Gabor層具有可自動學習Gabor函式參數的能力，不必自己手動設計 Gabor 函式的參數，機器
+學習出的參數還能比人工手動設計的好。我們的實驗結果比對先使用手動設計的Gabor filters萃取特徵再放入 CNN 模型辨識的論文。結果顯示，我們的方法不但步驟比較少，只需一層Gabor層和一層卷積層就可以達到更好的準確率，於是可以證明，可自動學習參數的Gabor CNN，比使用手動設計的Gabor filters來輔助CNN的方法還好。
 
 ## 2. 資料集
 * [The Japanese Female Facial Expression (JAFFE) Dataset](https://zenodo.org/record/3451524#.YXe3sC9Cb0o)
